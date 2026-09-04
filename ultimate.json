@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "ultimateweapons:ultimate" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "ultimateweapons:ultimate" }
+    ]
+  }
+}

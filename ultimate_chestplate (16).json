@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AHA",
+    "HCH",
+    "AHA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:silence_armor_trim_smithing_template" },
+    "H": { "item": "minecraft:player_head" },
+    "C": { "item": "minecraft:netherite_chestplate" }
+  },
+  "result": {
+    "id": "ultimateweapons:ultimate_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 4
+        }
+      }
+    }
+  }
+}

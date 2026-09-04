@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AHA",
+    "HCH",
+    "AHA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:netherite_ingot" },
+    "H": { "item": "minecraft:player_head" },
+    "C": { "item": "minecraft:mace" }
+  },
+  "result": {
+    "id": "ultimateweapons:ultimate_mace",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:density": 3,
+          "minecraft:breach": 3,
+          "minecraft:fire_aspect": 2,
+          "minecraft:wind_burst": 1
+        }
+      }
+    }
+  }
+}

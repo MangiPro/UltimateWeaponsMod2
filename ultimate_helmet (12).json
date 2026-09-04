@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AHA",
+    "HCH",
+    "AHA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:trident" },
+    "H": { "item": "minecraft:player_head" },
+    "C": { "item": "minecraft:netherite_helmet" }
+  },
+  "result": {
+    "id": "ultimateweapons:ultimate_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 4,
+          "minecraft:aqua_affinity": 1,
+          "minecraft:respiration": 3
+        }
+      }
+    }
+  }
+}

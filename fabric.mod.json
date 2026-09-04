@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ultimateweapons",
+  "version": "${version}",
+  "name": "Ultimate Weapons",
+  "description": "Fuegt Ultimate-Waffen und Ultimate-Ruestung mit einzigartigen, nur einmal craftbaren Faehigkeiten hinzu.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ultimateweapons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ultimateweapons.UltimateWeaponsMod"
+    ],
+    "client": [
+      "com.ultimateweapons.client.UltimateWeaponsModClient"
+    ]
+  },
+  "mixins": [
+    "ultimateweapons.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

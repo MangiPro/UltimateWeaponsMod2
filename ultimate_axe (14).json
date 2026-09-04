@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "AHA",
+    "HCH",
+    "AHA"
+  ],
+  "key": {
+    "A": { "item": "minecraft:totem_of_undying" },
+    "H": { "item": "minecraft:player_head" },
+    "C": { "item": "minecraft:netherite_axe" }
+  },
+  "result": {
+    "id": "ultimateweapons:ultimate_axe",
+    "count": 1,
+    "components": {
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:sharpness": 5,
+          "minecraft:efficiency": 6
+        }
+      }
+    }
+  }
+}
